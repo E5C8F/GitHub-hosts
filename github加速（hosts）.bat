@@ -1,6 +1,12 @@
 @echo off & setlocal enabledelayedexpansion & chcp 65001 >nul 2>&1
 set "a=编码a" & for /f "usebackq delims=" %%a in (`echo !a^:^~2^,1!`) do (if not "%%~a"=="a" chcp 936 >nul 2>&1) & set "a="
 
+
+
+
+
+
+
 net session >nul 2>&1||(PowerShell -Command "Start-Process '%~f0' -Verb RunAs" && exit)
 cd /d "%~dp0"
 
@@ -61,7 +67,10 @@ for /f "usebackq tokens=5 delims= " %%a in (`ping -n 1 -w 200 !c! ^| findstr "时
 set "d=%%~a"
 set "d=!d:~3,-2!"
 echo 当前测速IP：!c!  测速时间：!d!
-if "!d!" lss "!最快时间!" (
+
+
+set /a "d1=!d!-!最快时间!"
+if "!d1:~0,1!" == "-" (
 set "最快时间=!d!"
 set "最快IP=!c!"
 )
