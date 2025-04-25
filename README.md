@@ -9,7 +9,7 @@ Windows上，基于hosts的GitHub加速项目，自动检测GitHub并写入最�
 
 下载github加速（hosts）.bat文件或hosts加速（全球根服务器查询）.bat并执行。
 
-# 方法一：根据github提供的meta查询和测速IP并写入Hosts。
+# 方法一：根据github提供的meta，查询和测速IP并写入Hosts。
 Windows上，下载[github加速（hosts）.bat](https://github.akams.cn/https://github.com/E5C8F/GitHubSpeedHosts/blob/main/github加速（hosts）.bat)并执行。
 
  # 方法二：提供全球根服务器查询域名IP并测速写入Hosts。
