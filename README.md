@@ -21,7 +21,7 @@ Windows上，下载[hosts加速（全球根服务器查询）.bat](https://githu
 
 # 方法三：更改你的设备的DNS。
 
-任何支持更改DNS的系统都可以使用，但其步骤请自行探索。参考资料：[手动配置 AdGuard DNS，仅供参考，不要照抄设置](https://adguard-dns.io/zh_cn/public-dns.html)
+任何支持更改DNS的系统都可以使用，但其步骤请自行探索。参考资料：[手动配置 AdGuard DNS，仅以此为例，仅供参考，不要照抄设置](https://adguard-dns.io/zh_cn/public-dns.html)
 
 参考资料：[已知的 DNS 提供商](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)，
 
