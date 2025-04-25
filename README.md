@@ -25,3 +25,6 @@ Windows上，下载[hosts加速（全球根服务器查询）.bat](https://githu
 
 参考资料：[已知的 DNS 提供商](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)，
 
+# 方法四：使用其它项目提供的hosts文件。
+
+比如[GitHub Host项目](https://github-hosts.tinsfox.com/)，但由于此类方法提供的hosts并非本地测速得到的，实际效果可能不太好。
