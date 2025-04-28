@@ -22,7 +22,7 @@ Windows上，下载[hosts加速（全球根服务器查询）.bat](https://githu
 
 任何支持更改DNS的系统都可以使用，但其步骤请自行探索。
 
-[ ](https://adguard-dns.io/zh_cn/public-dns.html)
+[_](https://adguard-dns.io/zh_cn/public-dns.html)
 
 参考资料：[已知的 DNS 提供商](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)，
 
